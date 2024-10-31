@@ -1,0 +1,529 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: "Iceberg", sans-serif;
+    color: white;
+    background-color: black;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+img{
+    width: 100px;
+    height: 100px;
+}
+
+video{
+    height: 250px;
+    width: 320px;
+}
+
+@keyframes colorChange{
+    0%{ color: blue;}
+    25%{ color: red;}
+    50%{ color: yellow;}
+    75%{ color: green;}
+    100%{ color: white;}
+}
+
+/* styling the heading and links*/
+header{
+    width: 100vw;
+    height: 100vh;
+    /*background-color: #000;*/
+    background-image: url(summer.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+header h1{
+    font-size: 60px;
+    font-weight: bold;
+    margin: 0 0 0 20px;
+}
+
+.landing-display{
+    display: none;
+}
+
+.heading{
+   background-color: #FF8C00;
+   position: fixed;
+   top: 0;
+   width: 100%;
+   z-index: 1;
+}
+
+.heading ul{
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    list-style: none;
+    margin: 23px 60px 0 0 ;
+    font-size: 18px;
+}
+
+/* styling the dropdown menu for the contact button*/
+.dropdown{
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content{
+    display: none;
+	position: absolute;
+    margin-left: -5rem;
+    margin-top: rem;
+	background-color: rgba(255, 165, 0, 0.5);
+	min-width: 10rem;
+	box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+	z-index: 1;
+}
+
+.dropdown-content > a{
+    color: white;
+	padding: 1rem 1rem;
+	text-decoration: none;
+	display: block;
+    font-weight: 100;
+}
+
+.dropdown-content > a:hover{
+    background-color: rgba(255, 165, 0, 0.5);;
+}
+
+.dropdown:hover .dropdown-content{
+    display: block;
+}
+
+.heading{
+    display: flex;
+    justify-content: space-between;
+}
+
+/* styling the landing display text*/
+.landing-display{
+    text-align: center;
+    font-size: 130px;
+    position: absolute;
+    left: 305px;
+    color: black;
+}
+
+.color-change{
+    animation: colorChange 10s infinite;
+}
+
+/* styling the preview button at the button of the header*/
+.preview {
+    position: absolute;
+    top: 585px;
+    left: 50px;
+    display: flex;
+    flex-direction: column;
+}
+
+.preview img{
+    width: 35px;
+    height: 35px;
+    margin-left: 10px;
+}
+
+/*styling the offer section*/
+.offers{
+    width: 100vw;
+    height: 100vh;
+    /*background-image: url(summer3\ copy.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;*/
+    background-color: #2E2C2C;
+    color: #000;
+}
+
+.offers h2{
+    font-size: 23px;
+    font-weight: 100;
+    font-family: "Inter", serif;
+    position: relative;
+    top: 120px;
+    left: 40px;
+    color: #fff;
+}
+
+.offers h3{
+    margin: 150px 0 0 40px;
+    font-size: 60px;
+    font-family: "Inter", serif;
+    color: #FF8C00;
+}
+
+.offers p{
+    width: 270px;
+    font-size: 15px;
+    font-family: "Inter", serif;
+    color: gray;
+    margin: 10px 0 0 0;
+}
+
+.container-offer{
+    display: flex;
+    justify-content: space-evenly;
+    margin: 50px 0 0 0;
+}
+
+.container-offer h4{
+    font-size: 27px;
+    font-family: "Inter", serif;    
+    color: #fff;
+}
+
+.offer-1{
+    display: flex;
+    gap: 20px;
+}
+
+.offer-1 video{
+    width: 100px;
+    height: 100px;
+}
+
+.offer-2{
+    display: flex;
+    gap: 20px;
+}
+
+.offer-2 video{
+    width: 100px;
+    height: 100px;
+}
+
+.offer-3{
+    display: flex;
+    gap: 20px;
+}
+
+.offer-3 video{
+    width: 100px;
+    height: 100px;
+}
+
+
+/* styling the product section */
+.products{
+    width: 100vw;
+    /*background-color: #000;*/
+    background-image: url(summer2.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    color: white;
+}
+
+.products h2{
+    font-size: 48px;
+    margin: 0px 0px 0px 50px;
+    position: relative;
+    top: 100px;
+    
+}
+
+.products div{
+    margin-top: 60px;
+}
+
+.products ul{
+    list-style: none;
+}
+
+.products    p{
+    font-size: 25px;
+    text-align: center;
+}
+
+/* styling the product display*/
+.container-1 img{
+    width: 420px;
+    height: 450px;
+}
+
+.container-1{
+    display: flex;
+    justify-content: space-evenly;
+    margin: 130px 0 0 0;
+}
+
+/* the second display*/
+.container-2 img:nth-child(1){
+    width: 520px;
+    height: 450px;
+}
+
+.container-2 img:nth-child(2){
+    width: 420px;
+    height: 420px;
+}
+
+.container-2{
+    display: flex;
+    justify-content: space-evenly;
+    margin: 20px 0 0 0;
+}
+
+/* the third display*/
+.container-3 img{
+    width: 420px;
+    height: 420px;
+}
+
+.container-3{
+    display: flex;
+    justify-content: space-evenly;
+    margin: 10px 0 0 0;
+}
+
+/* the fourth display*/
+.container-4 img:nth-child(1){
+    width: 520px;
+    height: 420px;
+}
+
+.container-4 img:nth-child(2){
+    width: 420px;
+    height: 420px;
+}
+
+.container-4{
+    display: flex;
+    justify-content: space-evenly;
+    margin: 20px 0 0 0;
+}
+
+/*the section button*/
+button{
+    font-size: 30px;
+    margin: 30px 0 10px 615px;
+    background-color: #000;
+    opacity: 20%;
+    color: #fff;
+    border: none;
+    border-radius: 15px;
+    width: 160px;
+    font-weight: bold;
+    font-family: "Iceberg", sans-serif;
+}
+
+button:hover{
+    cursor: pointer;
+}
+
+/*footer*/
+footer{
+    margin: 0px 0 0px 0;
+    height: 100px;
+    background-color: #006994;
+    width: 100vw;
+}
+
+.nav-icons img{
+    width: 30px;
+    height: 30px;
+}
+
+.nav-icons ul{
+    display: flex;
+    list-style: none;
+    gap: 25px;
+    justify-content: center;
+    position: relative;
+    top: 20px;
+}
+
+footer p{
+    text-align: center;
+    margin: 20px 0 0 0;
+}
+
+/*Responsive interface*/
+@media  (max-width: 600px) {
+    /*The header section*/
+    header{
+        background-image: url(summer3\ copy.jpg);
+        background-position: center;
+        background-size: contain;
+        background: none;
+    }
+
+    .heading{
+        height: 50px;
+        position: fixed;
+        top: 0;
+    }
+
+    .heading h1{
+        font-size: 30px;
+        margin: auto 0px auto 12px;
+    }
+
+    .heading ul{
+        display: none;
+    }
+
+    .landing-display{
+        display: block;
+        position: absolute;
+        left: 0px;
+    }
+
+    .landing-display video{
+        height: 270px;
+        width: 100%;
+    }
+
+    .preview{
+        display: none;
+    }
+
+    /*The first section*/
+    .offers{
+        height: 150vh;
+    }
+
+    .offers h2{
+        font-size: 30px;
+        position: relative;
+        top: 60px;
+        left: 10px;
+    }
+
+    .container-offer{
+        display: inline;
+    }
+
+    .offers h3{
+        font-size: 35px;
+        position: relative;
+        top: -60px;
+        left: 17px;
+    }
+
+    .offer-1{
+        display: inline;
+        position: relative;
+        left: 30px;
+        top: -18px;
+    }
+
+    .offer-1 video{
+        position: relative;
+        left: 100px;
+    }
+
+    .offer-1 h4{
+        position: relative;
+        left: 70px;
+    }
+
+    .offer-1 p{
+        font-size: 20px;
+        position: relative;
+        left: 30px;
+    }
+
+    .offer-2{
+        display: inline;
+        position: relative;
+        left: 30px;
+    }
+
+    .offer-2 video{
+        position: relative;
+        left: 100px;
+    }
+
+    .offer-2 h4{
+        position: relative;
+        left: 70px;
+    }
+
+    .offer-2 p{
+        font-size: 20px;
+        position: relative;
+        left: 30px;
+    }
+
+    .offer-3{
+        display: inline;
+        position: relative;
+        left: 30px;
+        top: 10px;
+    }
+
+    .offer-3 video{
+        position: relative;
+        left: 100px;
+    }
+
+    .offer-3 h4{
+        position: relative;
+        left: 105px;
+    }
+
+    .offer-3  p{
+        font-size: 20px;
+        position: relative;
+        left: 30px;
+    }
+
+    /*the second section*/
+    .products{
+        height: 335vh
+    }
+
+    .products h2{
+        position: relative;
+        top: 70px;
+    }
+
+    .container-1, .container-2, .container-3, .container-4{
+        display: inline;
+        position: relative;
+        top: 20px;
+    }
+
+    #container-1 img{
+        width: 240px;
+        height: 250px;
+        position: relative;
+        left: 37px;
+    }
+
+    #container-1 p{
+        position: relative;
+        left: -25px;
+    }
+
+    .products button{
+        display: inline;
+        position: relative;
+        left: -540px;
+        top: 20px;
+    }
+
+    .nav-icons{
+        position: relative;
+        left: -25px;
+    }
+
+    footer p{
+        position: relative;
+        left: -24px;
+    }
+}
