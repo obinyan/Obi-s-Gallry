@@ -528,3 +528,180 @@ footer p{
         left: -24px;
     }
 }
+
+@media  (max-width: 400px) {
+    /*The header section*/
+    header{
+        background-image: url(summer3\ copy.jpg);
+        background-position: center;
+        background-size: contain;
+        background: none;
+    }
+
+    .heading{
+        height: 50px;
+        width: 400px;
+        position: fixed;
+        top: 0;
+    }
+
+    .heading h1{
+        font-size: 30px;
+        margin: auto 0px auto 12px;
+    }
+
+    .heading ul{
+        display: none;
+    }
+
+    .landing-display{
+        display: block;
+        position: absolute;
+        left: 0px;
+    }
+
+    .landing-display video{
+        height: 270px;
+        width: 100%;
+    }
+
+    .preview{
+        display: none;
+    }
+
+    /*The first section*/
+    .offers{
+        height: 170vh;
+    }
+
+    .offers h2{
+        font-size: 30px;
+        position: relative;
+        top: 60px;
+        left: 10px;
+    }
+
+    .container-offer{
+        display: inline;
+    }
+
+    .offers h3{
+        font-size: 35px;
+        position: relative;
+        top: -60px;
+        left: 17px;
+    }
+
+    .offer-1{
+        display: inline;
+        position: relative;
+        left: 30px;
+        top: -18px;
+    }
+
+    .offer-1 video{
+        position: relative;
+        left: 100px;
+    }
+
+    .offer-1 h4{
+        position: relative;
+        left: 70px;
+    }
+
+    .offer-1 p{
+        font-size: 20px;
+        position: relative;
+        left: 30px;
+    }
+
+    .offer-2{
+        display: inline;
+        position: relative;
+        left: 30px;
+    }
+
+    .offer-2 video{
+        position: relative;
+        left: 100px;
+    }
+
+    .offer-2 h4{
+        position: relative;
+        left: 70px;
+    }
+
+    .offer-2 p{
+        font-size: 20px;
+        position: relative;
+        left: 30px;
+    }
+
+    .offer-3{
+        display: inline;
+        position: relative;
+        left: 30px;
+        top: 10px;
+    }
+
+    .offer-3 video{
+        position: relative;
+        left: 100px;
+    }
+
+    .offer-3 h4{
+        position: relative;
+        left: 105px;
+    }
+
+    .offer-3  p{
+        font-size: 20px;
+        position: relative;
+        left: 30px;
+    }
+
+    /*the second section*/
+    .products{
+        height: 405vh
+    }
+
+    .products h2{
+        position: relative;
+        top: 70px;
+    }
+
+    .container-1, .container-2, .container-3, .container-4{
+        display: inline;
+        position: relative;
+        top: 20px;
+    }
+
+    #container-1 img{
+        width: 240px;
+        height: 250px;
+        position: relative;
+        left: 37px;
+    }
+
+    #container-1 p{
+        position: relative;
+        left: -25px;
+    }
+
+    .products button{
+        display: inline;
+        position: relative;
+        left: -540px;
+        top: 20px;
+    }
+
+    .nav-icons{
+        position: relative;
+        left: -25px;
+    }
+
+    footer p{
+        position: relative;
+        left: -24px;
+    }
+}
