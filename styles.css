@@ -363,6 +363,7 @@ footer p{
 
     .heading{
         height: 50px;
+        width: 400px;
         position: fixed;
         top: 0;
     }
