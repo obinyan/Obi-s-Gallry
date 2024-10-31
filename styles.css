@@ -529,7 +529,7 @@ footer p{
     }
 }
 
-@media  (max-width: 400px) {
+@media  (max-width: 350px) {
     /*The header section*/
     header{
         background-image: url(summer3\ copy.jpg);
