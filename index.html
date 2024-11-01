@@ -35,6 +35,16 @@
                         </li>
                     </ul>
                 </div>
+                <nav class="sidebar">
+                    <ul>
+                        <li onclick=hidesidebar()><svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#e8eaed"><path d="m256-200-56-56 224-224-224-224 56-56 224 224 224-224 56 56-224 224 224 224-56 56-224-224-224 224Z"/></svg></li>
+                        <li><a href="index.html">HOME</a></li>
+                        <li><a href="#about" class="link-button">ABOUT</a></li>
+                        <li><a href="#work" class="link-button">WORKS</a></li>
+                        <li><a href="">BLOG</a></li>
+                        <li><a href="">CONTACT</a></li>
+                    </ul>    
+                </nav>
             </div>
             <div class="landing-display">
                 <video src="6912163_motion_graphics_motion_graphic_waves_design_h29ed0f2b17679716001handdrawnflatgroovypsychedelicbackground1080p12000br.mp4" autoplay loop></video>
@@ -131,5 +141,15 @@
             </div>
             <p>2024 Osensei Studios All rights reserved</p>
         </footer>
+        <script>
+            function showsidebar(){
+                const sidebar = document.querySelector('.sidebar')
+                sidebar.style.display = 'flex'
+            }
+            function hidesidebar(){
+                const sidebar = document.querySelector('.sidebar')
+                sidebar.style.display = 'none'
+            }
+        </script>
     </body>
     </html>
