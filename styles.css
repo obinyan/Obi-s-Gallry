@@ -297,7 +297,7 @@ header h1{
 
 #container-1{
     position: relative;
-    top: 20px;
+    top: 35px;
 }
 
 #container-1 ul{
@@ -643,17 +643,17 @@ footer p{
     /*the collaboration panel*/
     .collaborate button{
         position: relative;
-        left: -472px;
+        left: -478px;
     }
 
     .nav-icons{
         position: relative;
-        left: -8px;
+        left: -7px;
     }
 
     footer p{
         position: relative;
-        left: -6px;
+        left: -5px;
     }
 }
 
