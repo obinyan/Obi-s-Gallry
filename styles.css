@@ -249,7 +249,7 @@ header h1{
     text-align: center;
 }
 
-#cotainer-1{
+#cotainer-1 ul{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: repeat(3, 1fr);
@@ -369,7 +369,12 @@ button:hover{
     align-content: center;
     background-color: #b7b3b3;
     height: 3rem;
-    width: 10rem;
+    width: 15rem;
+}
+
+.collaborate button:hover{
+    background-color: #000;
+    color: #fff;
 }
 
 /*footer*/
@@ -402,12 +407,12 @@ footer p{
 /*Responsive interface*/
 @media  (max-width: 600px) {
     /*The header section*/
-    /*header{
-        background-image: url(summer3\ copy.jpg);
+    header{
+        height: 100vh;
         background-position: center;
         background-size: contain;
         background: none;
-    }*/
+    }
 
     .heading{
         height: 50px;
@@ -442,7 +447,7 @@ footer p{
 
     /*The first section*/
     .offers{
-        height: 180vh;
+        height: 190vh;
     }
 
     .offers h2{
@@ -570,6 +575,12 @@ footer p{
         position: relative;
         left: -520px;
         top: 20px;
+    }
+
+    /*the collaboration panel*/
+    .collaborate button{
+        position: relative;
+        left: -200px;
     }
 
     .nav-icons{
