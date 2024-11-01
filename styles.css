@@ -250,6 +250,11 @@ header h1{
     text-align: center;
 }
 
+#container-1{
+    position: relative;
+    top: 20px;
+}
+
 #container-1 ul{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -448,7 +453,7 @@ footer p{
 
     /*The first section*/
     .offers{
-        height: 190vh;
+        height: 200vh;
     }
 
     .offers h2{
@@ -539,7 +544,7 @@ footer p{
 
     /*the second section*/
     .products{
-        height: 425vh
+        height: 440vh
     }
 
     .products h2{
@@ -553,7 +558,7 @@ footer p{
         display: flex;
         flex-direction: column;
         position: relative;
-        left: -10px;
+        left: -17px;
     }
 
     #container-1 img{
@@ -589,17 +594,17 @@ footer p{
     /*the collaboration panel*/
     .collaborate button{
         position: relative;
-        left: -400px;
+        left: -460px;
     }
 
     .nav-icons{
         position: relative;
-        left: -20px;
+        left: -14px;
     }
 
     footer p{
         position: relative;
-        left: -18px;
+        left: -12px;
     }
 }
 
