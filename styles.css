@@ -249,7 +249,21 @@ header h1{
     text-align: center;
 }
 
-/* styling the product display*/
+#cotainer-1{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    grid-gap: 2rem;
+    justify-content: center;
+    margin: 3rem;
+}
+
+#container img{
+    width: 400px;
+    height: 400px;
+}
+
+/* styling the product display
 .container-1 img{
     width: 420px;
     height: 450px;
@@ -261,7 +275,7 @@ header h1{
     margin: 130px 0 0 0;
 }
 
-/* the second display*/
+/* the second display
 .container-2 img:nth-child(1){
     width: 520px;
     height: 450px;
@@ -278,7 +292,7 @@ header h1{
     margin: 20px 0 0 0;
 }
 
-/* the third display*/
+/* the third display
 .container-3 img{
     width: 420px;
     height: 420px;
@@ -290,7 +304,7 @@ header h1{
     margin: 10px 0 0 0;
 }
 
-/* the fourth display*/
+/* the fourth display
 .container-4 img:nth-child(1){
     width: 520px;
     height: 420px;
@@ -305,7 +319,7 @@ header h1{
     display: flex;
     justify-content: space-evenly;
     margin: 20px 0 0 0;
-}
+}*/
 
 /*the section button*/
 button{
@@ -395,11 +409,7 @@ footer p{
 
     /*The first section*/
     .offers{
-        height: 190vh;
-    }
-
-    .offers p{
-        display: none;
+        height: 180vh;
     }
 
     .offers h2{
@@ -490,7 +500,7 @@ footer p{
 
     /*the second section*/
     .products{
-        height: 425vh
+        height: 415vh
     }
 
     .products h2{
@@ -498,7 +508,11 @@ footer p{
         top: 80px;
     }
 
-    .container-1, .container-2, .container-3, .container-4{
+    #container{
+        display: inline;
+    }
+
+    /*.container-1, .container-2, .container-3, .container-4{
         display: inline;
         position: relative;
         top: 20px;
@@ -514,7 +528,7 @@ footer p{
     #container-1 p{
         position: relative;
         left: -25px;
-    }
+    }*/
 
     .products button{
         display: inline;
