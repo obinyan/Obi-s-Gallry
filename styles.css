@@ -258,7 +258,7 @@ header h1{
     margin: 3rem;
 }
 
-#container img{
+#container-1 img{
     width: 400px;
     height: 400px;
 }
@@ -396,7 +396,7 @@ footer{
     gap: 25px;
     justify-content: center;
     position: relative;
-    top: 5px;
+    top: 35px;
 }
 
 footer p{
