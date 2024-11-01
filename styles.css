@@ -529,9 +529,9 @@ footer p{
     }
 }
 
-@media  (max-width: 300px) {
+/*@media  (max-width: 300px) {
     /*The header section*/
-    header{
+   /* header{
         background-image: url(summer3\ copy.jpg);
         background-position: center;
         background-size: contain;
@@ -570,7 +570,7 @@ footer p{
     }
 
     /*The first section*/
-    .offers{
+    /*.offers{
         height: 195vh;
     }
 
@@ -661,7 +661,7 @@ footer p{
     }
 
     /*the second section*/
-    .products{
+    /*.products{
         height: 425vh
     }
 
