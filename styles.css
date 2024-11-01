@@ -369,12 +369,12 @@ footer p{
 /*Responsive interface*/
 @media  (max-width: 600px) {
     /*The header section*/
-    header{
+    /*header{
         background-image: url(summer3\ copy.jpg);
         background-position: center;
         background-size: contain;
         background: none;
-    }
+    }*/
 
     .heading{
         height: 50px;
