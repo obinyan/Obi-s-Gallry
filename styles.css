@@ -344,7 +344,7 @@ button:hover{
 .collaborate{
     background-color: #12100f;
     width: 100vw;
-    height: 120vh;
+    height: 100vh;
     color: white;
 }
 
@@ -352,20 +352,20 @@ button:hover{
     font-size: 1.5rem;
     text-align: center;
     position: relative;
-    top: 5rem;
+    top: 7rem;
     font-weight: 100;
 }
 
 .collaborate > h2{
     font-size: 3rem;
     text-align: center;
-    margin-top: 6rem;
+    margin-top: 8rem;
     font-weight: 100;
 }
 
 .collaborate > button{
     margin-left: 34rem;
-    margin-top: 5rem;
+    margin-top: 7rem;
     text-align: center;
     align-content: center;
     background-color: #b7b3b3;
@@ -402,7 +402,7 @@ footer{
 
 footer p{
     text-align: center;
-    margin: 40px 0 0 0;
+    margin: 60px 0 0 0;
 }
 
 /*Responsive interface*/
