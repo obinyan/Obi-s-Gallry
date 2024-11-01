@@ -478,7 +478,7 @@ footer p{
     }
 
     .sidebar{
-        display: block;
+        display: flex;
     }
 
     .heading ul{
@@ -593,13 +593,13 @@ footer p{
 
     /*the second section*/
     .products{
-        height: 440vh
+        height: 460vh
     }
 
     .products h2{
         position: relative;
         top: 80px;
-        left: 10px;
+        left: 5px;
         margin-bottom: 25px;
     }
 
@@ -643,17 +643,17 @@ footer p{
     /*the collaboration panel*/
     .collaborate button{
         position: relative;
-        left: -460px;
+        left: -472px;
     }
 
     .nav-icons{
         position: relative;
-        left: -14px;
+        left: -8px;
     }
 
     footer p{
         position: relative;
-        left: -12px;
+        left: -6px;
     }
 }
 
