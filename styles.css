@@ -323,7 +323,7 @@ header h1{
 }*/
 
 /*the section button*/
-button{
+.products button{
     font-size: 30px;
     margin: 30px 0 10px 615px;
     background-color: #000;
@@ -336,7 +336,7 @@ button{
     font-family: "Iceberg", sans-serif;
 }
 
-button:hover{
+.products button:hover{
     cursor: pointer;
 }
 
