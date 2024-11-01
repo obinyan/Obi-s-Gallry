@@ -506,6 +506,8 @@ footer p{
     .products h2{
         position: relative;
         top: 80px;
+        left: 10px;
+        margin-bottom: 10px;
     }
 
     #container{
