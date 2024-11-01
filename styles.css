@@ -394,7 +394,7 @@ footer p{
 
     /*The first section*/
     .offers{
-        height: 150vh;
+        height: 180vh;
     }
 
     .offers h2{
@@ -485,7 +485,7 @@ footer p{
 
     /*the second section*/
     .products{
-        height: 335vh
+        height: 405vh
     }
 
     .products h2{
@@ -508,7 +508,7 @@ footer p{
 
     #container-1 p{
         position: relative;
-        left: -45px;
+        left: -25px;
     }
 
     .products button{
