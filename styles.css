@@ -339,10 +339,43 @@ button:hover{
     cursor: pointer;
 }
 
+/** the thrid section (the collaboration panel) **/
+.collaborate{
+    background-color: #12100f;
+    width: 100vw;
+    height: 120vh;
+    color: white;
+}
+
+.collaborate > h3{
+    font-size: 1.5rem;
+    text-align: center;
+    position: relative;
+    top: 5rem;
+    font-weight: 100;
+}
+
+.collaborate > h2{
+    font-size: 3rem;
+    text-align: center;
+    margin-top: 6rem;
+    font-weight: 100;
+}
+
+.collaborate > button{
+    margin-left: 37.5rem;
+    margin-top: 5rem;
+    text-align: center;
+    align-content: center;
+    background-color: #b7b3b3;
+    height: 3rem;
+    width: 10rem;
+}
+
 /*footer*/
 footer{
     margin: 0px 0 0px 0;
-    height: 100px;
+    height: 130px;
     background-color: #006994;
     width: 100vw;
 }
@@ -358,7 +391,7 @@ footer{
     gap: 25px;
     justify-content: center;
     position: relative;
-    top: 20px;
+    top: 12px;
 }
 
 footer p{
