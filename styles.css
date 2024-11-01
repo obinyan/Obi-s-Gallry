@@ -232,7 +232,7 @@ header h1{
     margin: 0px 0px 0px 70px;
     position: relative;
     top: 100px;
-    
+    margin-bottom: 30px;
 }
 
 .products div{
@@ -412,7 +412,7 @@ footer p{
         height: 100vh;
         background-repeat: no-repeat;
         background-position: center;
-        background-size: contain;
+        background-size: cover;
     }
 
     .heading{
@@ -539,19 +539,21 @@ footer p{
 
     /*the second section*/
     .products{
-        height: 415vh
+        height: 425vh
     }
 
     .products h2{
         position: relative;
         top: 80px;
         left: 10px;
-        margin-bottom: 10px;
+        margin-bottom: 25px;
     }
 
     #container-1 ul{
         display: flex;
         flex-direction: column;
+        position: relative;
+        left: -10px;
     }
 
     #container-1 img{
