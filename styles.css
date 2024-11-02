@@ -198,7 +198,7 @@ header h1{
 
 .sub-about-1{
     position: relative;
-    top: 5rem;
+    top: 7rem;
     margin-left: 8rem;
 }
 
@@ -209,7 +209,7 @@ header h1{
 
 .sub-about-2{
     position: relative;
-    top: 7rem;
+    top: 9rem;
 }
 
 .sub-about-2-a > p{
@@ -233,7 +233,7 @@ header h1{
 
 .sub-about-2-c{
     width: 35rem;
-    margin-top: 2rem;
+    margin-top: 4rem;
 }
 
 .sub-about-2-c > p{
@@ -503,6 +503,59 @@ footer p{
         display: none;
     }
 
+    /** section-1 (about) **/
+    .about{
+        background-color: #d9d9d9;
+        color: #000000;
+        display: inline-block;
+        width: 400px;
+        height: 67rem;
+    }
+
+    .sub-about-1 > img{
+        width: 350px;
+        height: 350px;
+    }
+
+    .sub-about-1{
+        margin-left: 10px;
+        margin-top: -50px;
+    }
+
+    .sub-about-2-a,.sub-about-2-b{
+        margin-left: 60px;
+    }
+    
+    .sub-about-2-a > p{
+        margin-left: 35px;
+        font-size: 38px;
+        font-weight: 100;
+        font-family: "Inter", sans-serif;
+    }
+    
+    .sub-about-2-b > p{
+        font-size: 38px;
+        font-weight: bold;
+        font-family: "Inter", sans-serif;
+    }
+    
+    .sub-about-2-b{
+        background-color: #d8d80b;
+        width: 140px;
+        height: 28px;
+    }
+    
+    .sub-about-2-c{
+        width: 350px;
+        margin-top: 30px;
+        margin-left: 10px;
+    }
+    
+    .sub-about-2-c > p{
+        font-size: 24px;
+        font-weight: 100;
+        font-family: "Inter", sans-serif;
+    }
 
     /*The first section*/
     .offers{
