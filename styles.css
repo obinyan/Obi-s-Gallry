@@ -104,6 +104,10 @@ header h1{
 }
 
 /** the menu button **/
+.nav-hidden{
+    display: none;
+}
+
 .sidebar{
     position: absolute;
     top: 0;
