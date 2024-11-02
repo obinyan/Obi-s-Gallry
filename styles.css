@@ -103,10 +103,6 @@ header h1{
     display: block;
 }
 
-/** the menu button **/
-.nav-hidden{
-    display: none;
-}
 
 .sidebar{
     position: absolute;
@@ -484,8 +480,16 @@ footer p{
         display: flex;
     }
 
-    .heading ul{
+    .heading a{
         display: none;
+    }
+
+    .heading svg{
+        fill: #fff  ;
+    }
+
+    .sidebar a{
+        display: flex;
     }
 
     .landing-display{
@@ -540,7 +544,7 @@ footer p{
     }
     
     .sub-about-2-b{
-        background-color: #d8d80b;
+        background-color: #FF8C00;
         width: 140px;
         height: 28px;
     }
