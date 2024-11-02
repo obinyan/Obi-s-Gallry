@@ -138,12 +138,12 @@ header h1{
 .sidebar > ul > li > svg{
     /**width: 50px;**/
     height: 50px;
-    margin-left: 50px;
+    margin-left: 20px;
 }
 
 .sidebar  li{
     /**width: 100%;**/
-    margin-left: 30px;
+    margin-left: 10px;
 }
 
 .sidebar a{
@@ -479,6 +479,10 @@ footer p{
     .heading h1{
         font-size: 30px;
         margin: auto 0px auto 12px;
+    }
+
+    .nav-hidden{
+        display: flex;
     }
 
     .sidebar{
