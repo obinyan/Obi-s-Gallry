@@ -103,6 +103,10 @@ header h1{
     display: block;
 }
 
+.nav-hidden{
+    display: none;
+    margin: -15px 0 0 0;
+}
 
 .sidebar{
     position: absolute;
@@ -125,7 +129,7 @@ header h1{
     gap: 1rem;
     align-items: flex-start;
     justify-content: flex-start;
-    margin-left: -60px;
+    margin-left: -10px;
     /**margin: 20px;**/
     background: none;
 
@@ -140,6 +144,10 @@ header h1{
 .sidebar  li{
     /**width: 100%;**/
     margin-left: 10px;
+}
+
+.sidebar li:hover{
+    background-color: #FF8C00;
 }
 
 .sidebar a{
@@ -176,9 +184,9 @@ header h1{
 }
 
 .preview img{
-    width: 35px;
-    height: 35px;
-    margin-left: 10px;
+    width: 36px;
+    height: 36px;
+    margin-left: 11px;
 }
 
 /** The about section **/
@@ -273,6 +281,10 @@ header h1{
     font-family: "Inter", serif;
     color: gray;
     margin: 10px 0 0 0;
+}
+
+.arrow{
+    margin: 5px 0 0 0 ;
 }
 
 .container-offer{
