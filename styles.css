@@ -105,7 +105,7 @@ header h1{
 
 .nav-hidden{
     display: none;
-    margin: -22px 0 0 0;
+    margin: -25px 0 0 0;
 }
 
 .sidebar{
@@ -137,7 +137,7 @@ header h1{
 
 .sidebar > ul > li > svg{
     /**width: 50px;**/
-    height: 60px;
+    height: 80px;
     margin-left: 45px;
 }
 
@@ -667,7 +667,7 @@ footer p{
 
     /*the second section*/
     .products{
-        height: 460vh
+        height: 470vh
     }
 
     .products h2{
