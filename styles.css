@@ -129,7 +129,7 @@ header h1{
     gap: 1rem;
     align-items: flex-start;
     justify-content: flex-start;
-    margin-left: -10px;
+    margin-left: 20 px;
     /**margin: 20px;**/
     background: none;
 
@@ -143,7 +143,7 @@ header h1{
 
 .sidebar  li{
     /**width: 100%;**/
-    margin-left: 10px;
+    margin-left: 15px;
 }
 
 .sidebar li:hover{
@@ -153,7 +153,8 @@ header h1{
 .sidebar a{
     width: 100%;
     align-content: center;
-
+    color: #000;
+    font-size: 20px;
 }
 
 .heading{
