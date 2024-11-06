@@ -243,7 +243,7 @@ header h1{
     display: flex;
     flex-direction: row;
     gap: 2rem;
-    margin-top: -15px;
+    /*margin-top: -15px;*/
 }
 
 .sub-about-1{
@@ -411,7 +411,8 @@ header h1{
 
 #container-1 i{
     margin: 10px 0 0 50px;
-    transform: scaleX(2.0);
+    transform: scaleX(4.0);
+    transform: scaleY(2.0);
 }
 
 #container-1{
