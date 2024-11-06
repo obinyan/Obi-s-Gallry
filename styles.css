@@ -340,6 +340,7 @@ header h1{
     background-position: center;
     background-size: cover;
     color: white;
+    filter: brightness(0.5);
 }
 
 .products h2{
@@ -370,18 +371,18 @@ header h1{
     top: 35px;
 }
 
-/*#container-1 ul{
+#container-1 ul{
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: repeat(3, 1fr);
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
     grid-gap: 2rem;
     justify-content: center;
     margin: 3rem;
-}*/
+}
 
 #container-1 img{
-    width: 400px;
-    height: 400px;
+    width: 550px;
+    height: 600px;
 }
 
 /*the section button*/
