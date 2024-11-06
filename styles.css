@@ -83,7 +83,7 @@ header h1{
 }
 
 .heading{
-   background-color: #FF8C00;
+   /*background-color: #FF8C00;*/
    position: fixed;
    top: 0;
    width: 100%;
