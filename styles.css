@@ -403,8 +403,13 @@ header h1{
     margin-top: 20px;
 }
 
+#container-1 li{
+    display: flex;
+    flex-direction: column;
+}
+
 #container-1 i{
-    width: 25px;
+    width: 45px;
 }
 
 #container-1{
