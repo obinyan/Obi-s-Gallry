@@ -411,8 +411,8 @@ header h1{
 
 #container-1 i{
     margin: 10px 0 0 50px;
-    transform: scaleX(4.0);
-    transform: scaleY(2.0);
+    font-size: 10px;
+    transform: scaleX(1.5);
 }
 
 #container-1{
