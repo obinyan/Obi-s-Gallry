@@ -105,7 +105,7 @@ header h1{
     font-size: 18px;
     font-family: "IBM Plex Mono", monospace;
     font-weight: bold;
-    font-style: normal;
+    
     z-index: 999;
 }
 
@@ -403,10 +403,8 @@ header h1{
     margin-top: 20px;
 }
 
-.products p{
-    display: none;
-    font-size: 25px;
-    text-align: center;
+#container-1 i{
+    width: 25px;
 }
 
 #container-1{
@@ -420,7 +418,7 @@ header h1{
     grid-template-rows: repeat(2, 1fr);
     grid-gap: 2rem;
     justify-content: center;
-    margin: 3rem 3rem 3rem 4rem;
+    margin: 6.5rem 3rem 3rem 5rem;
 }
 
 #container-1 img{
