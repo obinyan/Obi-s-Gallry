@@ -82,7 +82,7 @@ header h1{
 
 .heading{
    background-color: #ff8c00de;
-   filter: opacity(0.8);
+   filter: opacity(0.9);
    position: fixed;
    top: 0;
    width: 100%;
@@ -104,7 +104,7 @@ header h1{
     margin: 23px 60px 0 0 ;
     font-size: 18px;
     font-family: "IBM Plex Mono", monospace;
-    font-weight: 100;
+    font-weight: bold;
     font-style: normal;
     z-index: 999;
 }
@@ -160,7 +160,7 @@ header h1{
     z-index: 999;
     margin-left: 20px;
     background-color: #ffffff1e;
-    backdrop-filter: blur(20px);
+    backdrop-filter: blur(50px);
     box-shadow: -10px 0px 10px #000001;
     display: none;
    
