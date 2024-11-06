@@ -109,6 +109,10 @@ header h1{
     z-index: 999;
 }
 
+.heading a{
+    color: #000;
+}
+
 /* styling the dropdown menu for the contact button*/
 .dropdown{
     position: relative;
