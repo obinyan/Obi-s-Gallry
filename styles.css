@@ -59,14 +59,14 @@ header{
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    opacity: 1;
+    /*opacity: 1;*/
     transition: opacity 1s ease-in-out;
     position: absolute;
     top: 0;
     left: 0;
   }
   
-  .active {
+  .slide.active {
     opacity: 1;
   }
 
