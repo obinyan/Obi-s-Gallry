@@ -719,7 +719,7 @@ footer p{
 
     /*the second section*/
     .products{
-        height: 290vh
+        height: 280vh
     }
 
     .products h2{
@@ -742,7 +742,7 @@ footer p{
     }
 
     #container-1 i{
-        margin-left: 50px;
+        margin-left: 100px;
     }
 
     .products button{
