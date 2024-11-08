@@ -719,7 +719,7 @@ footer p{
 
     /*the second section*/
     .products{
-        height: 400vh
+        height: 350vh
     }
 
     .products h2{
@@ -733,7 +733,7 @@ footer p{
         display: flex;
         flex-direction: column;
         position: relative;
-        left: -27px;
+        left: -47px;
     }
 
     #container-1 img{
@@ -742,7 +742,7 @@ footer p{
     }
 
     #container-1 i{
-        margin-left: -70px;
+        margin-left: -20px;
     }
 
     /*.container-1, .container-2, .container-3, .container-4{
