@@ -719,7 +719,7 @@ footer p{
 
     /*the second section*/
     .products{
-        height: 305vh
+        height: 290vh
     }
 
     .products h2{
@@ -742,7 +742,14 @@ footer p{
     }
 
     #container-1 i{
-        margin-left: 30px;
+        margin-left: 50px;
+    }
+
+    .products button{
+        display: inline;
+        position: relative;
+        left: -520px;
+        top: 20px;
     }
 
     /*the collaboration panel*/
