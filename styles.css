@@ -246,7 +246,10 @@ header h1{
 
 /*styling the welcome note*/
 .welcome-note{
-    width: 100px;
+    width: 120px;
+    position: absolute;
+    top: 200px;
+    left: 200px;
 }
 
 .welcome-note h2{
@@ -420,7 +423,7 @@ header h1{
 /* styling the product section */
 .products{
     width: 100vw;
-    height: 160vh;
+    height: 190vh;
     background-color: #000;
     /*background-image: url(summer2.jpg);
     background-repeat: no-repeat;
