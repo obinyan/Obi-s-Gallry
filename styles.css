@@ -125,9 +125,9 @@ header h1{
     gap: 30px;
     list-style: none;
     margin: 23px 60px 0 0 ;
-    font-size: 18px;
+    font-size: 17px;
     font-family: "IBM Plex Mono", monospace;
-    font-weight: bold;
+    font-weight: 100;
     
     z-index: 999;
 }
@@ -414,6 +414,7 @@ header h1{
     background-position: center;
     background-size: cover;*/
     color: white;
+    margin: 50px;
 }
 
 .products h2{
@@ -460,8 +461,8 @@ header h1{
 }
 
 #container-1 img{
-    width: 360px;
-    height: 410px;
+    width: 350px;
+    height: 400px;
 }
 
 /*the section button*/
