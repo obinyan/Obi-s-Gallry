@@ -134,14 +134,14 @@ header h1{
 	position: absolute;
     margin-left: -5rem;
     margin-top: rem;
-	background-color: rgba(255, 165, 0, 0.5);
+	background-color: rgba(255, 255, 255, 0.8);
 	min-width: 10rem;
 	box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
 	z-index: 1;
 }
 
 .dropdown-content > a{
-    color: #fff;
+    color: #000;
 	padding: 1rem 1rem;
 	text-decoration: none;
 	display: block;
@@ -149,7 +149,7 @@ header h1{
 }
 
 .dropdown-content > a:hover{
-    background-color: #12100f;
+    background-color: #fff;
 }
 
 .dropdown:hover .dropdown-content{
@@ -209,6 +209,8 @@ header h1{
     align-content: center;
     color: #000;
     font-size: 20px;
+    font-weight: 100;
+    font-family: "Inter", sans-serif;
 }
 
 .heading{
@@ -245,7 +247,7 @@ header h1{
 }
 
 /** The about section **/
-.about{
+/*.about{
     background-color: #d9d9d9;
     width: 100vw;
     height: 110vh;
@@ -300,7 +302,7 @@ header h1{
     font-size: 1.5rem;
     font-weight: 100;
     font-family: "Inter", sans-serif;
-}
+}*/
 
 /*styling the offer section*/
 .offers{
