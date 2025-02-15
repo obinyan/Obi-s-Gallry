@@ -246,10 +246,10 @@ header h1{
 
 /*styling the welcome note*/
 .welcome-note{
-    width: 170px;
+    width: 200px;
     position: absolute;
     top: 220px;
-    left: 300px;
+    left: 450px;
 }
 
 .welcome-note h2{
