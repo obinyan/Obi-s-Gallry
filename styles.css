@@ -246,14 +246,14 @@ header h1{
 
 /*styling the welcome note*/
 .welcome-note{
-    width: 120px;
+    width: 150px;
     position: absolute;
     top: 200px;
     left: 200px;
 }
 
 .welcome-note h2{
-    font-size: 50px;
+    font-size: 60px;
     font-family: "Rubik Wet Paint", system-ui;
     font-weight: 400;
     font-style: normal;
