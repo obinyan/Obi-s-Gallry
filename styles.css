@@ -119,6 +119,12 @@ header h1{
     z-index: 999;
 }
 
+.logo-img{
+    height: 100px;
+    width: auto;
+    z-index: 999;
+}
+
 .heading ul{
     display: flex;
     flex-direction: row;
@@ -424,7 +430,7 @@ header h1{
 /* styling the product section */
 .products{
     width: 100vw;
-    height: 190vh;
+    height: 220vh;
     background-color: #000;
     /*background-image: url(summer2.jpg);
     background-repeat: no-repeat;
