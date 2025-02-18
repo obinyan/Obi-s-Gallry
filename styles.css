@@ -120,9 +120,11 @@ header h1{
 }
 
 .logo-img{
-    height: 100px;
+    height: 200px;
     width: auto;
     z-index: 999;
+    position: absolute;
+    top: 15px;
 }
 
 .heading ul{
@@ -272,9 +274,9 @@ header h1{
     left: 400px;
 }
 
-.bg-img-illustration img{
+/*.bg-img-illustration img{
     width: 400px;
-}
+}*/
 
 /* styling the preview button at the button of the header*/
 .preview {
