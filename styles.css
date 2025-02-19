@@ -477,12 +477,22 @@ header h1{
 }
 
 .products h2{
-    font-size: 28px;
+    font-size: 35px;
     font-family: "Inter", sans-serif;
-    margin: 0px 0px 0px 70px;
+    font-weight: 400;
+    margin: 0px 0px 10px 70px;
     position: relative;
     top: 80px;
-    margin-bottom: 50px;
+    
+}
+
+.products > h3 > a{
+    font-size: 25px;
+    font-family: "Inter", sans-serif;
+    font-weight: 100;
+    margin: 0 0 50px 90px;
+    position: absolute;
+    top: 90px;
 }
 
 .products div{
