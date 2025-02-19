@@ -134,6 +134,7 @@ header h1{
     flex-direction: row;
     gap: 220px;
     margin: 0 0 0 420px;
+    z-index: 999;
 }
 
 .nav-1{
