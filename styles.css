@@ -133,7 +133,7 @@ header h1{
     flex-direction: row;
     gap: 30px;
     list-style: none;
-    margin: 23px 60px 0 0 ;
+    /*margin: 23px 60px 0 0 ;*/
     font-size: 17px;
     font-family: "IBM Plex Mono", monospace;
     font-weight: 500;
@@ -275,9 +275,10 @@ header h1{
     left: 600px;
 }
 
-/*.bg-img-illustration img{
-    width: 400px;
-}*/
+.bg-img-illustration img{
+    width: 500px;
+    height: 500px;
+}
 
 /* styling the preview button at the button of the header*/
 .preview {
