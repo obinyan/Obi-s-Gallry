@@ -106,8 +106,7 @@ header h1{
 .heading{
    /*background-color: #ff8c00de;*/
    filter: opacity(0.9);
-   position: fixed;
-   top: 0;
+   
    width: 100%;
    z-index: 1;
 }
@@ -128,6 +127,8 @@ header h1{
 }
 
 .heading ul{
+    position: fixed;
+    top: 0;
     display: flex;
     flex-direction: row;
     gap: 30px;
@@ -135,7 +136,7 @@ header h1{
     margin: 23px 60px 0 0 ;
     font-size: 17px;
     font-family: "IBM Plex Mono", monospace;
-    font-weight: 100;
+    font-weight: 500;
     
     z-index: 999;
 }
@@ -271,7 +272,7 @@ header h1{
 .bg-img-illustration{
     position: absolute;
     top: 200px;
-    left: 400px;
+    left: 600px;
 }
 
 /*.bg-img-illustration img{
