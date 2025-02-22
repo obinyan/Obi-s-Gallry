@@ -486,6 +486,10 @@ header h1{
     
 }
 
+.products h3{
+    margin: 90px 0 0 50px;
+}
+
 .products > h3 > a{
     font-size: 25px;
     font-family: "Inter", sans-serif;
